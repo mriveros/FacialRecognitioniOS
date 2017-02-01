@@ -1,0 +1,7 @@
+# FacialRecognitioniOS
+
+Install: 
+
+``
+pod 'SwiftyCam'
+``
