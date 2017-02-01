@@ -15,6 +15,7 @@
 		C33589771E425832004CF6DE /* Source in Resources */ = {isa = PBXBuildFile; fileRef = C33589761E425832004CF6DE /* Source */; };
 		C33589791E425891004CF6DE /* SwiftyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33589781E425891004CF6DE /* SwiftyCam.framework */; };
 		C335897B1E4258EC004CF6DE /* MyCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */; };
+		C33EA8341E427390003EEC15 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EA8331E427390003EEC15 /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C33589761E425832004CF6DE /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
 		C33589781E425891004CF6DE /* SwiftyCam.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyCam.framework; path = "../../Library/Developer/Xcode/DerivedData/FacialRecognitioniOS-eopbuemtnkbrdmgmpvnoglddmirw/Build/Products/Debug-iphonesimulator/SwiftyCam/SwiftyCam.framework"; sourceTree = "<group>"; };
 		C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCameraViewController.swift; sourceTree = "<group>"; };
+		C33EA8331E427390003EEC15 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		EDD723BC416AE3C7770D3617 /* Pods-FacialRecognitioniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacialRecognitioniOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacialRecognitioniOS/Pods-FacialRecognitioniOS.release.xcconfig"; sourceTree = "<group>"; };
 		F532087AB64C7E89546C4F93 /* Pods_FacialRecognitioniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacialRecognitioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				C33589641E425787004CF6DE /* AppDelegate.swift */,
 				C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */,
 				C33589681E425787004CF6DE /* Main.storyboard */,
+				C33EA8331E427390003EEC15 /* MainMenuViewController.swift */,
 				C335896B1E425787004CF6DE /* Assets.xcassets */,
 				C33589761E425832004CF6DE /* Source */,
 				C335896D1E425787004CF6DE /* LaunchScreen.storyboard */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33EA8341E427390003EEC15 /* MainMenuViewController.swift in Sources */,
 				C335897B1E4258EC004CF6DE /* MyCameraViewController.swift in Sources */,
 				C33589651E425787004CF6DE /* AppDelegate.swift in Sources */,
 			);
