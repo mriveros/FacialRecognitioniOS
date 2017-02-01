@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5413C5D8D719ECB0CD9030 /* Pods_FacialRecognitioniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F532087AB64C7E89546C4F93 /* Pods_FacialRecognitioniOS.framework */; };
 		C33589651E425787004CF6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33589641E425787004CF6DE /* AppDelegate.swift */; };
-		C33589671E425787004CF6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33589661E425787004CF6DE /* ViewController.swift */; };
 		C335896A1E425787004CF6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33589681E425787004CF6DE /* Main.storyboard */; };
 		C335896C1E425787004CF6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C335896B1E425787004CF6DE /* Assets.xcassets */; };
 		C335896F1E425787004CF6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C335896D1E425787004CF6DE /* LaunchScreen.storyboard */; };
+		C33589771E425832004CF6DE /* Source in Resources */ = {isa = PBXBuildFile; fileRef = C33589761E425832004CF6DE /* Source */; };
+		C33589791E425891004CF6DE /* SwiftyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33589781E425891004CF6DE /* SwiftyCam.framework */; };
+		C335897B1E4258EC004CF6DE /* MyCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800BA743032BFD045AE5B430 /* Pods-FacialRecognitioniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacialRecognitioniOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacialRecognitioniOS/Pods-FacialRecognitioniOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C33589611E425787004CF6DE /* FacialRecognitioniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialRecognitioniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33589641E425787004CF6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C33589661E425787004CF6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C33589691E425787004CF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C335896B1E425787004CF6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C335896E1E425787004CF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33589701E425787004CF6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33589761E425832004CF6DE /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		C33589781E425891004CF6DE /* SwiftyCam.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyCam.framework; path = "../../Library/Developer/Xcode/DerivedData/FacialRecognitioniOS-eopbuemtnkbrdmgmpvnoglddmirw/Build/Products/Debug-iphonesimulator/SwiftyCam/SwiftyCam.framework"; sourceTree = "<group>"; };
+		C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCameraViewController.swift; sourceTree = "<group>"; };
+		EDD723BC416AE3C7770D3617 /* Pods-FacialRecognitioniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacialRecognitioniOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacialRecognitioniOS/Pods-FacialRecognitioniOS.release.xcconfig"; sourceTree = "<group>"; };
+		F532087AB64C7E89546C4F93 /* Pods_FacialRecognitioniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacialRecognitioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33589791E425891004CF6DE /* SwiftyCam.framework in Frameworks */,
+				BE5413C5D8D719ECB0CD9030 /* Pods_FacialRecognitioniOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41FE2168B910FAD69224FA43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800BA743032BFD045AE5B430 /* Pods-FacialRecognitioniOS.debug.xcconfig */,
+				EDD723BC416AE3C7770D3617 /* Pods-FacialRecognitioniOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C33589581E425787004CF6DE = {
 			isa = PBXGroup;
 			children = (
 				C33589631E425787004CF6DE /* FacialRecognitioniOS */,
 				C33589621E425787004CF6DE /* Products */,
+				41FE2168B910FAD69224FA43 /* Pods */,
+				D342400DC9851872035FB5DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,23 @@
 			isa = PBXGroup;
 			children = (
 				C33589641E425787004CF6DE /* AppDelegate.swift */,
-				C33589661E425787004CF6DE /* ViewController.swift */,
+				C335897A1E4258EC004CF6DE /* MyCameraViewController.swift */,
 				C33589681E425787004CF6DE /* Main.storyboard */,
 				C335896B1E425787004CF6DE /* Assets.xcassets */,
+				C33589761E425832004CF6DE /* Source */,
 				C335896D1E425787004CF6DE /* LaunchScreen.storyboard */,
 				C33589701E425787004CF6DE /* Info.plist */,
 			);
 			path = FacialRecognitioniOS;
+			sourceTree = "<group>";
+		};
+		D342400DC9851872035FB5DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33589781E425891004CF6DE /* SwiftyCam.framework */,
+				F532087AB64C7E89546C4F93 /* Pods_FacialRecognitioniOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C33589731E425787004CF6DE /* Build configuration list for PBXNativeTarget "FacialRecognitioniOS" */;
 			buildPhases = (
+				CB212832692CD29FA617C5BF /* [CP] Check Pods Manifest.lock */,
 				C335895D1E425787004CF6DE /* Sources */,
 				C335895E1E425787004CF6DE /* Frameworks */,
 				C335895F1E425787004CF6DE /* Resources */,
+				7DF9A8EBE13730C2A71F4C3F /* [CP] Embed Pods Frameworks */,
+				6B84313D7E90AEBFBCE6171F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +130,7 @@
 				TargetAttributes = {
 					C33589601E425787004CF6DE = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2N8B9ZL63N;
+						DevelopmentTeam = 7WDLA2R4CV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,17 +161,66 @@
 				C335896F1E425787004CF6DE /* LaunchScreen.storyboard in Resources */,
 				C335896C1E425787004CF6DE /* Assets.xcassets in Resources */,
 				C335896A1E425787004CF6DE /* Main.storyboard in Resources */,
+				C33589771E425832004CF6DE /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B84313D7E90AEBFBCE6171F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacialRecognitioniOS/Pods-FacialRecognitioniOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF9A8EBE13730C2A71F4C3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacialRecognitioniOS/Pods-FacialRecognitioniOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB212832692CD29FA617C5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C335895D1E425787004CF6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33589671E425787004CF6DE /* ViewController.swift in Sources */,
+				C335897B1E4258EC004CF6DE /* MyCameraViewController.swift in Sources */,
 				C33589651E425787004CF6DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,12 +342,19 @@
 		};
 		C33589741E425787004CF6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800BA743032BFD045AE5B430 /* Pods-FacialRecognitioniOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7WDLA2R4CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FaceIdAPI",
+				);
 				INFOPLIST_FILE = FacialRecognitioniOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.FacialRecognitioniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SafinaLifa.FacialRecognitioniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +362,19 @@
 		};
 		C33589751E425787004CF6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD723BC416AE3C7770D3617 /* Pods-FacialRecognitioniOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7WDLA2R4CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FaceIdAPI",
+				);
 				INFOPLIST_FILE = FacialRecognitioniOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.FacialRecognitioniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SafinaLifa.FacialRecognitioniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +399,7 @@
 				C33589751E425787004CF6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
